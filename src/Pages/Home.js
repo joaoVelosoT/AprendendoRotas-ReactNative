@@ -37,6 +37,13 @@ export default function Home() {
         buttonText="Ir para as configurações"
         onPress={() => navigation.navigate("Configuracoes")}
       />
+
+<Card
+        title="Faq"
+        content="Para perguntas e respostas."
+        buttonText="Ir para Faq"
+        onPress={() => navigation.navigate("Faq")}
+      />
     </View>
   );
 }

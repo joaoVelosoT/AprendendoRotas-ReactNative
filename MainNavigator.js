@@ -5,6 +5,7 @@ import Home from './src/Pages/Home';
 import Sobre from './src/Pages/Sobre';
 import Contato from './src/Pages/Contato';
 import Configuracoes from './src/Pages/Configuracoes';
+import Faq from './src/Pages/Faq';
 
 const Stack = createNativeStackNavigator();
 
@@ -28,6 +29,10 @@ export default function MainNavigator() {
             <Stack.Screen
                 name = "Configuracoes"
                 component={Configuracoes}
+            />
+            <Stack.Screen 
+                name = "Faq"
+                component={Faq}
             />
         </Stack.Navigator>
     </NavigationContainer>

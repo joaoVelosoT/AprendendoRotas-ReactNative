@@ -1,0 +1,33 @@
+{
+    "contatos" : [
+        {
+            "id":"1",
+            "nome":"João Vitor",
+            "telefone" : "1112345679"
+        },
+        {
+            "id":"2",
+            "nome":"João Veloso",
+            "telefone" : "1112345679"
+        }
+    ],
+    "faq" : [
+        {
+            "id":"1",
+            "pergunta": "O que é JSON Server",
+            "resposta" : "Json Server é uma ferramenta que permite..."
+        },
+        {
+            "id":"2",
+            "pergunta": "O que é JSON Server",
+            "resposta" : "Json Server é uma ferramenta que permite..."
+        },
+        {
+            "id":"2",
+            "pergunta": "O que é JSON Server",
+            "resposta" : "Json Server é uma ferramenta que permite..."
+        }
+    ]
+        
+    
+}
